@@ -1,6 +1,6 @@
 @media only screen and (min-width: 37.5em) {
     header img {
-		width: 85%;
+		width: 50%;
 	}
 
     .sec-company-info h1 {
@@ -16,7 +16,7 @@
     }
     
     nav li a {
-        font-size: .9rem;
+        font-size: .5rem;
     }
 
     .hero-weather-info {
@@ -111,21 +111,8 @@
         Index Styles
     */
 
-    .towns {
-        grid-template-columns : 1fr; 
-    }
+   
 
-    .town-card,  .town-card:nth-child(1), .town-card:nth-child(2) {
-        flex-flow : row nowrap;
-    }
-
-    .town-card:nth-child(3) {
-        flex-flow : row-reverse nowrap;
-    }
-
-    .town-card img {
-        max-width : 50%;
-    } 
 
     .text-container p {
       font-size: 1.05rem;      
