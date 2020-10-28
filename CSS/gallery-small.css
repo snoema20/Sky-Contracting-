@@ -348,10 +348,11 @@ footer {
     line-height: 1.3em;
     
 }
-
 footer a {
-    color: #e0dff0;
+    color: rgb(9, 11, 122);
 }
+
+
 
 /*
     Gallery Styles
