@@ -341,17 +341,12 @@ hr {
 }
 
 footer {
-    width: 100%;
-    font-family: 'Share Tech Mono', monospace;
-    font-size: 0.75em;  
-    line-height: 1.5em;
-	background-color: #c9444b;  
-    color: #2d0983;
-	display: flex;
-    flex: 0 1 100%;
-	align-items:center;
-    justify-content:center;
+    padding: .2em;
+    color: rgb(1, 10, 14);
+    font-size: 1em;
     text-align: center;
+    line-height: 1.3em;
+    
 }
 
 footer a {
