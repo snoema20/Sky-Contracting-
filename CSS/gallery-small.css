@@ -25,11 +25,12 @@ body {
 }
 
 header {
-	background-color: #dd8488;
-	display: flex;
-	align-items:center;
-    justify-content:center;
-    text-align: center;
+
+display: flex;
+align-items: center;
+justify-content: center;
+flex-flow: column;
+padding: 2px;
 }
 
 header img {

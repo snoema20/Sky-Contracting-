@@ -86,18 +86,7 @@
       Index Styles
   */
 
-    .towns {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-
-    .town-card {
-      display : block;
-    }
-
-    .town-card img {
-      max-width: 100%;
-    }
-
+    
     .text-container p {
       font-size: 1.1rem;
     }
