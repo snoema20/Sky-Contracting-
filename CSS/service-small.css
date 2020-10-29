@@ -30,14 +30,14 @@ nav li {list-style-type: none;}
 nav li.active {background-color: #333}
 nav a {
     display: block;
-    padding: .4rem 0; /*44px min*/
+    padding: .2rem 0; 
     color: #eee;
     text-align: center;
     text-decoration: none;
 }
 nav a:hover {background-color: #444;}
 
-main{display: block; padding: 1rem 2%;}
+main{display: block; padding: .8rem 2%;}
 main h1 {color: #17a8e4;}
 
 main figure img {width: 100%;}
@@ -46,7 +46,7 @@ main figure{
     width: 100%;
     
 }
-main figcaption {text-align: center; font-size: .8rem;}
+main figcaption {text-align: center; font-size: .5rem;}
 
 
 
