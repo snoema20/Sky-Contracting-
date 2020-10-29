@@ -23,27 +23,28 @@ header h2{
 	font-size: 1.2rem; 
 	font-weight: normal;
 }
-nav {
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    background-color: #ac4141;
-    box-shadow: 0 5px 10px #0b112b;
-}
 
-.main-nav li:first-child {
+nav {background-color: #111;}
+nav ul{margin:0; padding: 0;}
+nav li {list-style-type: none;}
+nav li.active {background-color: #333}
+nav a {
     display: block;
-    background-color: #be4242;
-    border: none;
-    font-size: 1.3rem;
-    padding: 10px;
+    padding: .2rem 0; 
+    color: #eee;
+    text-align: center;
+    text-decoration: none;
 }
+nav a:hover {background-color: #444;}
 
-
+main-nav li:first-child{
+display: block; padding: .5rem 2%;}
+main h1 {color: #17a8e4;}
 
 main figure img {width: 100%;}
 main figure{
     margin: 0;
-    width: 50%;
+    width: 100%;
     
 }
 main figcaption {text-align: center; font-size: .5rem;}
@@ -58,6 +59,7 @@ footer {
 }
 
 
+/*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
   content: "";
   display: table;
