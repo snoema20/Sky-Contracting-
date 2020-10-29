@@ -1,10 +1,10 @@
-/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
-/*----------- apply a natural box layout model to all elements --------------*/
+
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-/* body rules */
+
 body {
     font-family: Verdana;
     font-size: 16px;
@@ -30,7 +30,7 @@ nav li {list-style-type: none;}
 nav li.active {background-color: #333}
 nav a {
     display: block;
-    padding: .8rem 0; /*44px min*/
+    padding: .4rem 0; /*44px min*/
     color: #eee;
     text-align: center;
     text-decoration: none;
