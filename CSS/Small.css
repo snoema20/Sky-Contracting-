@@ -192,3 +192,10 @@ td img {
         margin-right: auto;
         width: 70%;
     }
+    .gallery-container {
+        display: grid;
+        grid-gap: 30px;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+    }
