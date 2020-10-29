@@ -23,22 +23,22 @@ header h2{
 	font-size: 1.2rem; 
 	font-weight: normal;
 }
-
-nav {background-color: #111;}
-nav ul{margin:0; padding: 0;}
-nav li {list-style-type: none;}
-nav li.active {background-color: #333}
-nav a {
-    display: block;
-    padding: .2rem 0; 
-    color: #eee;
+nav {
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
-    text-decoration: none;
+    background-color: #ac4141;
+    box-shadow: 0 5px 10px #0b112b;
 }
-nav a:hover {background-color: #444;}
 
-main{display: block; padding: .2rem 2%;}
-main h1 {color: #17a8e4;}
+.main-nav li:first-child {
+    display: block;
+    background-color: #be4242;
+    border: none;
+    font-size: 1.3rem;
+    padding: 10px;
+}
+
+
 
 main figure img {width: 100%;}
 main figure{
