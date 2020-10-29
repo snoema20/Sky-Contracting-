@@ -330,7 +330,7 @@ hr {
 }
 
 footer {
-    padding: .2em;
+    padding: .5em;
     color: rgb(1, 10, 14);
     font-size: 1em;
     text-align: center;
@@ -373,12 +373,12 @@ figure img {
 
 figure img[data-src] {
     filter: blur(0);
-    /*filter: blur(0.2em);*/
+   
 }
 
 figcaption {
     display: none;
-    font-size: small;
+    font-size: medium;
     padding: 10px 0 10px 0;
     color: #1f2041;
 }
@@ -387,9 +387,6 @@ figure:hover {
     box-shadow: none;
 }
 
-/*
-    Storm Center Forms
-*/
 
 .form-container {
     width: 450px;
